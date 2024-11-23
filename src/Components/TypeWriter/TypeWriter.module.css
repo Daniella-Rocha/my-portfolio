@@ -1,0 +1,19 @@
+.type_writer {
+    align-items: center;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    color: #f1f1f1;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .type_writer {
+        height: 50%;
+        width: 50%;
+    }
+}

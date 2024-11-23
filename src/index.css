@@ -1,0 +1,16 @@
+:root {
+
+  --primary: #a136ff;
+  --secondary: #220038;
+  --dark-bg: #13131f;
+  --white: #fff;
+  --black: #000;
+  
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0;
+}
+
+body {
+  background: var(--dark-bg);
+  scroll-behavior: smooth;
+}

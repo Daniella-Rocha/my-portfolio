@@ -1,0 +1,21 @@
+.rodape{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.sociais{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.sociais div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0.3rem;
+}

@@ -1,0 +1,31 @@
+.sobre_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.sobre_container > :first-child{
+    width: 80%;
+}
+
+.sobre_container > :first-child h1 {
+    color: var(--white);
+    text-align: center;
+}
+
+.sobre_container > :first-child p {
+    color: var(--white);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.sobre__container svg {
+    height: 30%;
+    width: 15%;
+}
+
+.sobre__container svg:hover {
+    transition: 500ms linear;
+    transform: scale(1.15);
+}

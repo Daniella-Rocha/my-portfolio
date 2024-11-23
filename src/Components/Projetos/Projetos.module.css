@@ -1,0 +1,8 @@
+.lista_projeto{
+    display: flex;
+}
+
+.lista_projeto li{
+    list-style: none;
+}
+

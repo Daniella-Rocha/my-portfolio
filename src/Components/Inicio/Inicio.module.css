@@ -1,0 +1,41 @@
+.inicio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.minha_foto {
+    height: 50%;
+    /* margin-top: 100px; */
+}
+
+.minha_foto img {
+    border-radius: 40%;
+    width: 250px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .inicio {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: calc(100vh - 50px);
+        height: 80vh;
+        justify-content: center;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .minha_foto {
+        /* margin-top: 100px; */
+        height: 50%;
+    }
+
+    .minha_foto img {
+        width: 350px;
+    }
+}

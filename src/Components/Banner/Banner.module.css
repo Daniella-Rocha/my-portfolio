@@ -1,0 +1,46 @@
+.container-fluid{
+   background-color: #13131f;
+}
+
+.div__write {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    padding: 15px 30px;
+    width: 60%;
+}
+
+.img__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    margin-top: 20px;
+    padding: 30px;
+    width: 60%;
+}
+
+.img {
+    border-radius: 50%;
+    height: 100%;
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner__container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img__container {
+        width: 100%;
+    }
+
+    .banner__container img {
+        width: 50%;
+    }
+}

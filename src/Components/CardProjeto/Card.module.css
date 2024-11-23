@@ -1,0 +1,20 @@
+.customStyle_card {
+    border-radius: 10px;
+    color: var(--color-primary);
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.customStyle_btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: var(--color-primary);
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.customStyle_btn:hover {
+    border: 1px solid var(--color-primary);
+    color: #f1f1f1;
+}

@@ -1,0 +1,34 @@
+.nav,
+.nav.nav-tabs {
+    background: var(--dark-bg);
+    justify-content: end;
+    height: 5rem;
+    width: 100%;
+}
+
+.nav.nav-tabs> :first-child {
+    align-items: end;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link {
+    color: var(--white);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background: var(--primary);
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .nav.nav-tabs> :first-child {
+        padding: 0;
+        width: 40%;
+    }
+
+}
